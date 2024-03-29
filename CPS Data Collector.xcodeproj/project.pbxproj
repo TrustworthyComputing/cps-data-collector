@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F42C5312AB25829001FF50E /* CPS_Data_CollectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42C5302AB25829001FF50E /* CPS_Data_CollectorApp.swift */; };
+		9F42C5332AB25829001FF50E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42C5322AB25829001FF50E /* ContentView.swift */; };
+		9F42C5352AB2582B001FF50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F42C5342AB2582B001FF50E /* Assets.xcassets */; };
+		9F42C5382AB2582B001FF50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F42C5372AB2582B001FF50E /* Preview Assets.xcassets */; };
+		9F42C53F2AB25ACA001FF50E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42C53E2AB25AC9001FF50E /* ContentViewModel.swift */; };
+		9F42C5412AB25F7D001FF50E /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42C5402AB25F7D001FF50E /* CameraPreviewView.swift */; };
+		9FDDA0962AB7830B0050B49E /* UIDevice Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDDA0952AB7830B0050B49E /* UIDevice Extension.swift */; };
+		9FDDA09B2AB78CDE0050B49E /* TrackingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDDA09A2AB78CDE0050B49E /* TrackingData.swift */; };
+		9FDDA09E2AB8DAE30050B49E /* DSWaveformImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9FDDA09D2AB8DAE30050B49E /* DSWaveformImage */; };
+		9FDDA0A02AB8DAE30050B49E /* DSWaveformImageViews in Frameworks */ = {isa = PBXBuildFile; productRef = 9FDDA09F2AB8DAE30050B49E /* DSWaveformImageViews */; };
+		9FDDA0A42AB9B5A00050B49E /* AudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDDA0A32AB9B5A00050B49E /* AudioData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F42C52D2AB25829001FF50E /* CPS Data Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPS Data Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F42C5302AB25829001FF50E /* CPS_Data_CollectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPS_Data_CollectorApp.swift; sourceTree = "<group>"; };
+		9F42C5322AB25829001FF50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F42C5342AB2582B001FF50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F42C5372AB2582B001FF50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F42C53E2AB25AC9001FF50E /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9F42C5402AB25F7D001FF50E /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		9FDDA0952AB7830B0050B49E /* UIDevice Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice Extension.swift"; sourceTree = "<group>"; };
+		9FDDA09A2AB78CDE0050B49E /* TrackingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingData.swift; sourceTree = "<group>"; };
+		9FDDA0A32AB9B5A00050B49E /* AudioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F42C52A2AB25829001FF50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDDA09E2AB8DAE30050B49E /* DSWaveformImage in Frameworks */,
+				9FDDA0A02AB8DAE30050B49E /* DSWaveformImageViews in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F42C5242AB25829001FF50E = {
+			isa = PBXGroup;
+			children = (
+				9F42C52F2AB25829001FF50E /* CPS Data Collector */,
+				9F42C52E2AB25829001FF50E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F42C52E2AB25829001FF50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F42C52D2AB25829001FF50E /* CPS Data Collector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F42C52F2AB25829001FF50E /* CPS Data Collector */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDA0992AB78CC20050B49E /* Models */,
+				9FDDA0982AB78BE60050B49E /* View Models */,
+				9FDDA0972AB78BC70050B49E /* View */,
+				9FDDA0942AB7816F0050B49E /* Extensions */,
+				9F42C5302AB25829001FF50E /* CPS_Data_CollectorApp.swift */,
+				9F42C5342AB2582B001FF50E /* Assets.xcassets */,
+				9F42C5362AB2582B001FF50E /* Preview Content */,
+			);
+			path = "CPS Data Collector";
+			sourceTree = "<group>";
+		};
+		9F42C5362AB2582B001FF50E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F42C5372AB2582B001FF50E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FDDA0942AB7816F0050B49E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDA0952AB7830B0050B49E /* UIDevice Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FDDA0972AB78BC70050B49E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F42C5322AB25829001FF50E /* ContentView.swift */,
+				9F42C5402AB25F7D001FF50E /* CameraPreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FDDA0982AB78BE60050B49E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F42C53E2AB25AC9001FF50E /* ContentViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9FDDA0992AB78CC20050B49E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDA09A2AB78CDE0050B49E /* TrackingData.swift */,
+				9FDDA0A32AB9B5A00050B49E /* AudioData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F42C52C2AB25829001FF50E /* CPS Data Collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F42C53B2AB2582B001FF50E /* Build configuration list for PBXNativeTarget "CPS Data Collector" */;
+			buildPhases = (
+				9F42C5292AB25829001FF50E /* Sources */,
+				9F42C52A2AB25829001FF50E /* Frameworks */,
+				9F42C52B2AB25829001FF50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPS Data Collector";
+			packageProductDependencies = (
+				9FDDA09D2AB8DAE30050B49E /* DSWaveformImage */,
+				9FDDA09F2AB8DAE30050B49E /* DSWaveformImageViews */,
+			);
+			productName = "CPS Data Collector";
+			productReference = 9F42C52D2AB25829001FF50E /* CPS Data Collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F42C5252AB25829001FF50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F42C52C2AB25829001FF50E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F42C5282AB25829001FF50E /* Build configuration list for PBXProject "CPS Data Collector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F42C5242AB25829001FF50E;
+			packageReferences = (
+				9FDDA09C2AB8DAE20050B49E /* XCRemoteSwiftPackageReference "DSWaveformImage" */,
+			);
+			productRefGroup = 9F42C52E2AB25829001FF50E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F42C52C2AB25829001FF50E /* CPS Data Collector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F42C52B2AB25829001FF50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F42C5382AB2582B001FF50E /* Preview Assets.xcassets in Resources */,
+				9F42C5352AB2582B001FF50E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F42C5292AB25829001FF50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F42C5332AB25829001FF50E /* ContentView.swift in Sources */,
+				9F42C5312AB25829001FF50E /* CPS_Data_CollectorApp.swift in Sources */,
+				9FDDA0962AB7830B0050B49E /* UIDevice Extension.swift in Sources */,
+				9FDDA09B2AB78CDE0050B49E /* TrackingData.swift in Sources */,
+				9F42C5412AB25F7D001FF50E /* CameraPreviewView.swift in Sources */,
+				9FDDA0A42AB9B5A00050B49E /* AudioData.swift in Sources */,
+				9F42C53F2AB25ACA001FF50E /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F42C5392AB2582B001FF50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F42C53A2AB2582B001FF50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F42C53C2AB2582B001FF50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CPS Data Collector/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To record video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPS-Data-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F42C53D2AB2582B001FF50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CPS Data Collector/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To record video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPS-Data-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F42C5282AB25829001FF50E /* Build configuration list for PBXProject "CPS Data Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F42C5392AB2582B001FF50E /* Debug */,
+				9F42C53A2AB2582B001FF50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F42C53B2AB2582B001FF50E /* Build configuration list for PBXNativeTarget "CPS Data Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F42C53C2AB2582B001FF50E /* Debug */,
+				9F42C53D2AB2582B001FF50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FDDA09C2AB8DAE20050B49E /* XCRemoteSwiftPackageReference "DSWaveformImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmrschmidt/DSWaveformImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FDDA09D2AB8DAE30050B49E /* DSWaveformImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FDDA09C2AB8DAE20050B49E /* XCRemoteSwiftPackageReference "DSWaveformImage" */;
+			productName = DSWaveformImage;
+		};
+		9FDDA09F2AB8DAE30050B49E /* DSWaveformImageViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FDDA09C2AB8DAE20050B49E /* XCRemoteSwiftPackageReference "DSWaveformImage" */;
+			productName = DSWaveformImageViews;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F42C5252AB25829001FF50E /* Project object */;
+}
