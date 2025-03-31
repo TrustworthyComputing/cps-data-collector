@@ -12,7 +12,7 @@ This project requires the latest version of Xcode and iOS 16.0 or above in the t
 After building successfully using Xcode, the app is uploaded to the target iOS device (it may be needed to "Trust" the signing certificate in iOS, under "General"->"VPN & Device Management").
 
 ## Acknowledgments
-The design this app was partially supported by the National Science Foundation (Award #2234974).
+The design of this app was partially supported by the National Science Foundation (Award #2234974).
 
 <p align="center">
     <img src="./logos/twc.png" height="20%" width="20%">
